@@ -26,13 +26,10 @@ function App() {
           <UploadQue /> // Render UploadQue if toggled on
         ) : (
           <>
-            {/* Welcome Page */}
             <Start />
 
-            {/* Quiz Page */}
             <Quiz />
 
-            {/* Result Page */}
             <Result />
           </>
         )}
